@@ -4,11 +4,11 @@ namespace App\Http\Controllers\Api;
 
 use App\Exceptions\ApiException;
 use App\Http\Controllers\ApiController;
-use App\Service\QiHooService;
-use App\Service\QQService;
-use App\Service\WeChatService;
-use App\Service\WhoisReverseService;
-use App\Service\WhoisService;
+use App\Services\QiHooService;
+use App\Services\QQService;
+use App\Services\WeChatService;
+use App\Services\WhoisReverseService;
+use App\Services\WhoisService;
 use App\Utils\DomainUtil;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;

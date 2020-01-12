@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service;
+namespace App\Services;
 
 use App\Jobs\WhoisStorage;
 use App\Utils\CommonUtil;

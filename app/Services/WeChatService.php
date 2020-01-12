@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service;
+namespace App\Services;
 
 use App\Utils\ProxyUtil;
 use GuzzleHttp\Client;
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Redis;
 /**
  * 微信拦截检测
  * Class WeChatService
- * @package App\Service
+ * @package App\Services
  */
 class WeChatService extends BaseService
 {

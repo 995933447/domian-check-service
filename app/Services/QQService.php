@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Service;
+namespace App\Services;
 
 use App\Utils\ProxyUtil;
 use GuzzleHttp\Client;
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Redis;
 /**
  * QQ拦截检测
  * Class QQService
- * @package App\Service
+ * @package App\Services
  */
 class QQService extends BaseService
 {
